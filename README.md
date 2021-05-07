@@ -1,9 +1,9 @@
 # efficient-copy
 
 ### Usage:
-`chmod +x eff_copy`
+`chmod +x eff_copy.sh`
 
-`./eff_copy source_folder/ destination_folder/`
+`./eff_copy.sh source_folder/ destination_folder/`
 
 ### Explanation:
 Using `tar` is much quicker than recursive `cp`, as `tar` reads and writes in separate processes and it can also read many files at once, where `cp` reads and writes files one by one in a loop.
